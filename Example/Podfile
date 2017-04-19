@@ -2,10 +2,5 @@ use_frameworks!
 
 target 'TestPodLibrary_Example' do
   pod 'TestPodLibrary', :path => '../'
-
-  target 'TestPodLibrary_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
+  pod 'SDWebImage', '~> 3.8.2'
 end

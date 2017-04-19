@@ -1,0 +1,21 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - TestPodLibrary (0.1.0)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.8.2)
+  - TestPodLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  TestPodLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  TestPodLibrary: 0f031a24a80aacda7d872b8f7bac34aa8593b080
+
+PODFILE CHECKSUM: 3f46f411b355737acddae18f4784ccc59557595a
+
+COCOAPODS: 1.2.1
